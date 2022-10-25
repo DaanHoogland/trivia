@@ -159,7 +159,7 @@ jobs:
         component/test_vpc_routers
         component/test_vpn_users"
 
-      steps:
-        - name: Print the input tag to STDOUT
-          run: echo  The tags are ${{ matrix.tests }} 
+    steps:
+      - name: Print the input tag to STDOUT
+        run: echo  The tags are ${{ matrix.tests }} 
 

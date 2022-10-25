@@ -1,10 +1,5 @@
 on:
   workflow_dispatch:
-    inputs:
-      doe-dan:
-        description: 'True to print to STDOUT'
-        required: true 
-        type: boolean 
 
 jobs:
   build:
@@ -166,7 +161,6 @@ jobs:
 
   zeg-maar:
     runs-on: ${{ matrix.os }}
-    if:  ${{ inputs.doe-dan }} 
     steps:
       - name: Print the input tag to STDOUT
         run: echo  The tags are ${{ matrix.tests }} 

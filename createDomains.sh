@@ -1,6 +1,6 @@
 #! /bin/env bash
 #
-someenv=local
+[[ -z "$someenv" ]] && someenv=someenv
 domains=""
 topleveldomains=""
 accounts=""

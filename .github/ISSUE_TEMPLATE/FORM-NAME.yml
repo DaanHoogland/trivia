@@ -1,3 +1,4 @@
+description: "Thank you for reporting a bug!"
 name: issue
 title: "[DATE]: [PROBLEM]"
 labels: issue, needs-testing

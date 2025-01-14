@@ -1,8 +1,6 @@
----
 name: issue
 title: "[DATE]: [PROBLEM]"
-labels: issue, needs triage
----
+labels: issue, needs-testing
 body:
 - type: markdown
   attributes:

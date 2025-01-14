@@ -1,6 +1,5 @@
 ---
 name: issue
-about: Use this template for tracking nasty-ness.
 title: "[DATE]: [PROBLEM]"
 labels: issue, needs triage
 ---

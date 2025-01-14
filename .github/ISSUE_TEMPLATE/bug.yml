@@ -3,8 +3,9 @@ name: bug
 title: "[DATE]: [PROBLEM]"
 labels: issue, needs-testing
 body:
-- type: markdown
+- type: textarea
   attributes:
+    label: reproduction steps
     value: |
       1.
       2.

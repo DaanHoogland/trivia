@@ -4,6 +4,13 @@ title: "[DATE]: [PROBLEM]"
 labels: issue, needs triage
 ---
 
+- type: markdown
+  attributes:
+    value: "Bugs are the worst!"
+- type: textarea
+  attributes:
+    label: "What's wrong?"
+
 ### problem: 
 
 ### resolution: 
